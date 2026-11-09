@@ -18,5 +18,5 @@ return new class extends Migration
         Schema::table('posts', function (Blueprint $table) {
             $table->dropColumn('views');
         });
-    }
+    } 
 };
