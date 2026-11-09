@@ -41,6 +41,6 @@ class PostController extends Controller
 
         $post->increment('views');
 
-        return view('posts.show', compact('post'));
+        return view('posts.show', compact('post')); 
     }
 }
